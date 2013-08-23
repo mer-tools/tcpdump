@@ -1,7 +1,7 @@
 Summary: A network traffic monitoring tool
 Name: tcpdump
 Version: 4.4.0
-Release: 1
+Release: 3
 License: BSD with advertising
 URL: http://www.tcpdump.org
 Group: Applications/Internet
