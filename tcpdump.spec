@@ -48,5 +48,5 @@ exit 0
 
 %files
 %defattr(-,root,root)
-%doc LICENSE README CHANGES CREDITS
+%doc LICENSE CHANGES CREDITS
 %{_sbindir}/tcpdump
