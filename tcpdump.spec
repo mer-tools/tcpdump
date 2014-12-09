@@ -12,6 +12,10 @@ BuildRequires: automake
 BuildRequires: sharutils
 
 Source0: %{name}-%{version}.tar.gz
+Patch1: CVE-2014-8767.patch
+Patch2: CVE-2014-8768.patch
+Patch3: CVE-2014-8769.patch
+Patch4: CVE-2014-9140.patch
 
 %description
 Tcpdump is a command-line tool for monitoring network traffic.
@@ -25,6 +29,10 @@ Install tcpdump if you need a program to monitor network traffic.
 # Adjusting %%setup since git-pkg unpacks to src/
 # %%setup -q
 %setup -q -n src
+%patch1 -p1
+%patch2 -p1
+%patch3 -p1
+%patch4 -p1
 
 find . -name '*.c' -o -name '*.h' | xargs chmod 644
 

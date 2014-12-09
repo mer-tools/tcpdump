@@ -1,3 +1,6 @@
+* Tue Dec 09 2014 Pasi Sjöholm <pasi.sjoholm@jollamobile.com> - 4.5.1
+- Fix CVE-2014-8767, CVE-2014-8768, CVE-2014-8769 and CVE-2014-9140
+
 * Thu May 22 2014 Matti Kosola <matti.kosola@jollamobile.com> - 4.5.1
 - Upgrade to latest upstream version
 
