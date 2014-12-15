@@ -1,3 +1,9 @@
+* Mon Dec 15 2014 Matti Kosola <matti.kosola@jollamobile.com> - 4.5.1
+- Fix CVE-2014-8767
+- Fix CVE-2014-8768
+- Fix CVE-2014-8769
+- Fix CVE-2014-9140 
+
 * Thu May 22 2014 Matti Kosola <matti.kosola@jollamobile.com> - 4.5.1
 - Upgrade to latest upstream version
 

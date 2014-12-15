@@ -12,6 +12,10 @@ BuildRequires: automake
 BuildRequires: sharutils
 
 Source0: %{name}-%{version}.tar.gz
+Patch0: 0001-Fix-CVE-2014-8767.patch
+Patch1: 0002-Fix-CVE-2014-8768.patch
+Patch2: 0003-Fix-CVE-2014-8769.patch
+Patch3: 0004-Fix-CVE-2014-9140.patch
 
 %description
 Tcpdump is a command-line tool for monitoring network traffic.
