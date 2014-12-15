@@ -30,6 +30,11 @@ Install tcpdump if you need a program to monitor network traffic.
 # %%setup -q
 %setup -q -n src
 
+%patch0 -p1
+%patch1 -p1
+%patch2 -p1
+%patch3 -p1
+
 find . -name '*.c' -o -name '*.h' | xargs chmod 644
 
 %build
